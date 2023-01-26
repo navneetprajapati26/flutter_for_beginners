@@ -35,17 +35,25 @@ class TextWig extends StatelessWidget {
               ),
             ),
             SizedBox(height: 5,),
-            Text(
-              "Navneet Prajapati",
-              style: TextStyle(
-                  fontSize: 30,
-                  fontWeight: FontWeight.bold,
-                  fontStyle: FontStyle.normal,
-                  //letterSpacing: 20
-                wordSpacing: 10,
-                color: Colors.blueAccent
+
+
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: SelectableText(
+                "The simple process of make copyable text widget in flutter will help you in your particular use case.We use Flutter CopyableText() widget in this process.",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    fontStyle: FontStyle.normal,
+                    //letterSpacing: 20
+                  wordSpacing: 10,
+                  color: Colors.blueAccent
+                ),
               ),
             ),
+
+
             SizedBox(height: 5,),
             Text(
               "Text",

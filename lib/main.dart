@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:youtube/text_wig.dart';
 
 import 'home.dart';
+import 'row_and_cul.dart';
 
 
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  TextWig(),
+      home:  RowCol(),
       // home: Scaffold(
       //   backgroundColor: CupertinoColors.secondaryLabel,
       // ),
