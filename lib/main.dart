@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:youtube/text_wig.dart';
 
+import 'ListView.dart';
 import 'home.dart';
 import 'row_and_cul.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  RowCol(),
+      home: ListViewEx(),
       // home: Scaffold(
       //   backgroundColor: CupertinoColors.secondaryLabel,
       // ),

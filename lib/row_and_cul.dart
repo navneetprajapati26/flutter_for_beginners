@@ -96,6 +96,7 @@ class RowCol extends StatelessWidget {
                   alignment: Alignment.center,
                   child: Text("Flutter"),
                 ),
+                
               ],
             ),
           ],
