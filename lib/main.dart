@@ -4,14 +4,15 @@ import 'package:flutter/services.dart';
 import 'package:youtube/text_wig.dart';
 
 import 'ListView.dart';
+import 'app_bar.dart';
 import 'home.dart';
 import 'row_and_cul.dart';
 
 
 
 void main(){
-  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    statusBarColor: Color(0xffffff),
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Color(0x3B3939),
     statusBarIconBrightness: Brightness.light
   ));
   runApp( MyApp());
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
+
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ListViewEx(),
+      home: AppBarTut(),
       // home: Scaffold(
       //   backgroundColor: CupertinoColors.secondaryLabel,
       // ),

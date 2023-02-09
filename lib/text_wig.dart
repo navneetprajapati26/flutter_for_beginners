@@ -36,7 +36,6 @@ class TextWig extends StatelessWidget {
             ),
             SizedBox(height: 5,),
 
-
             Padding(
               padding: EdgeInsets.all(8.0),
               child: SelectableText(
